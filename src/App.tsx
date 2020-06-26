@@ -60,7 +60,7 @@ export default function App() {
     axios({
       method: "GET",
       url:
-        "https://maps.googleapis.com/maps/api/js?key=AIzaSyCVcY1_j6RG8Sqg6DqpBv7zyNkB8zJZzis&input=malayisa",
+        "https://maps.googleapis.com/maps/api/js?key=[yourkey]&input=malayisa",
       headers: {
         "Content-Type": "application/json",
         "Access-Control-Allow-Origin": "*",
